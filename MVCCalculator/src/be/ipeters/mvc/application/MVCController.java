@@ -15,6 +15,9 @@ public class MVCController implements Initializable{
 	   @FXML
 	   private TextField input1,input2, output;
 	  
+	public MVCController(MVCView theView, MVCModel theModel) {
+		// TODO Auto-generated constructor stub
+	}
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		// TODO Auto-generated method stub
